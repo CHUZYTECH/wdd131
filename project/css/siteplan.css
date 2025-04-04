@@ -1,23 +1,19 @@
-/* Reset some default styles */
-* {
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
-/* Body and overall styles */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-}
 
 /* Header and navigation styles */
 header {
     background: #10202F;
     color: #fff;
     padding: 1rem;
+    text-align: center;
 }
 
 nav {
@@ -76,117 +72,32 @@ nav {
     color: #fff;
 }
 
-main {
+/* Sections */
+section {
+    margin: 20px;
     padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Hero section styles */
-.hero {
-    background: #027481;
-    color: #fff;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.hero h1 {
-    font-size: 3rem;
-}
-
-.hero p {
-    font-size: 1.2rem;
-}
-
-.intro {
-    background-color: #EEAA1C;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.content, .blog {
-    margin-bottom: 20px;
-}
-
-.article-container {
+/* Wireframe Images */
+.wireframe-container {
     display: flex;
     gap: 20px;
 }
 
-.article {
-    background-color: #fff;
-    padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 48%;
+.wireframe-container img {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
 }
 
-.blog-post {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-
-
-/* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body and overall styles */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-}
-
-
-
-/* Footer styles */
+/* Footer */
 footer {
-    background: #10202F;
-    color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background-color: #10202F;;
+    color: white;
 }
-
-footer a {
-    color: #f4f4f4;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #ff6347;
-}
-
-/* Media Queries for responsiveness */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .nav-links li {
-        text-align: center;
-        margin: 10px 0;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .hero h1 {
-        font-size: 2rem;
-    }
-}
-
