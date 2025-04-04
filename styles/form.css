@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5F8B4C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+}
+
+form {
+    background-color: #FFDDAB;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 99%;
+    padding: 5px;
+    margin: 5px 0;
+    /* border-radius: 5px; */
+    border: 1px solid #ccc;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+textarea {
+    height: 100px;
+}
+
+
+.rating-container {
+    text-align: center;
+
+}
+
+.features-container {
+    padding: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #5F8B4C;
+    padding: 10px;
+}
+
+/* New code */
+/* Center the submit button */
+input[type="submit"] {
+    background: #FF9A9A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    
+    /* Center the button */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%; /* Adjust width as needed */
+  }
+  
+  input[type="submit"]:hover {
+    background: #5F8B4C;
+    color: #333;
+  }
+
+  .optional-text {
+    color: gray; /* Change to any color you prefer */
+    font-style: italic;
+    font-size: 0.9em;
+  }
+  
